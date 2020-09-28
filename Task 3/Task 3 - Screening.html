@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Covid-19 Pre-Screening Form</title>
+</head>
+<body>
+
+<h1> <img src="logo-black.PNG"> </h1>
+ <div>
+ <label for="date">Date</label>
+ <input type="date" name="date" id="date" min="2020-03-01"
+ </div>
+<h2>Personal Information</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Surname</th> 
+    <th>Unique Number</th>
+  </tr>
+  <tr>
+    <td><input></td>
+    <td><input></td>
+	<td><input></td>
+  </tr>
+  <tr>
+    <td></td>   
+  </tr>
+</table>
+<form action="results.html" method="GET">
+<div>
+
+ 
+
+</form>
+
+<h3>A. SYMPTOM CHECK</h3>
+<div>
+  <p>1. Do you have a dry cough?</p>
+  <input type="radio" id="yesDryCough" name="DryCough" value="Yes">
+  <label for="yesDryCough">Yes</label><br>
+  <input type="radio" id="NoDryCaugh" name="DryCough" value="No">
+  <label for="NoDryCaugh">No</label><br>  
+ <br>
+</div>
+<div>
+<p>2. Do you have a sore throat?</p>
+  <input type="radio" id="yesSoreThroat" name="SoreThroat" value="Yes">
+  <label for="yesSoreThroat">Yes</label><br>
+  <input type="radio" id="NoSoreThroat" name="SoreThroat" value="No">
+  <label for="NoSoreThroat">No</label><br> 
+</div>
+<div>
+<p>3. Do you have redness of eyes or conjunctivitis?</p>
+  <input type="radio" id="yesConjunctivitis" name="Conjunctivitis" value="Yes">
+  <label for="yesConjunctivitis">Yes</label><br>
+  <input type="radio" id="NoSoreThroat" name="Conjunctivitis" value="No">
+  <label for="NoConjunctivitis">No</label><br> 
+</div>
+<p>4. Do you suffer from fever?</p>
+  <input type="radio" id="yesFever" name="Fever" value="Yes">
+  <label for="yesFever">Yes</label><br>
+  <input type="radio" id="NoFever" name="Fever" value="No">
+  <label for="NoFever">No</label><br> 
+</div>
+<div>
+<p>5. Do you suffer from fatigue or tiredness?</p>
+  <input type="radio" id="yesFatigue" name="Fatigue" value="Yes">
+  <label for="yesFatigue">Yes</label><br>
+  <input type="radio" id="NoFatigue" name="Fatigue" value="No">
+  <label for="NoFatigue">No</label><br> 
+</div>
+
+<p>For an updated list of symptoms: <br>
+​​​<a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html">https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html</a></p>
+
+<br> 
+<h4>B. CONTACT OR EXPOSURE RISK</h4>
+<div>
+<p>1. Have you been exposed to someone diagnosed with Covid-19 or had recent contact with someone who is self-isolating whilst waiting for a Covid-19 test result?</p>
+  <input type="radio" id="yesContact" name="Contact" value="Yes">
+  <label for="yesContact">Yes</label><br>
+  <input type="radio" id="NoFatigue" name="Contact" value="No">
+  <label for="NoContact">No</label><br> 
+</div>
+<p>2. Have you been in quaranteen or self-isolation for the past 14days?</p>
+  <input type="radio" id="yesQuaranteen" name="Quaranteen" value="Yes">
+  <label for="yesQuaranteen">Yes</label><br>
+  <input type="radio" id="NoQuaranteen" name="Quaranteen" value="No">
+  <label for="NoQuaranteen">No</label><br> 
+</div>
+
+<h5>NOTE:</h5>
+<p>Please complete this daily self-screening questionnaire before leaving home/ residence and before coming onto the workplace. NB: Persons will not be permitted to the workplace if screening has not been done.
+<br>
+
+<br>If symptoms mentioned in questions A1 to A5 are experienced, then:
+<br>-DO NOT ATTEMPT to enter the workplace.
+<br>-Consult your Healthcare worker to find out if testing or self-quaranteen will be neccesary.
+<br>-Urgently notify your employer.
+<br>-You may only enter the workplace if you have been cleared by your Healthcare worker.
+<br>
+</p>
+
+<button type=submit">Submit</button>
+</body>
+</html>
